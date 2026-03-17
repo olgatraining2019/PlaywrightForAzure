@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test":"playwright test tests/navigate-to-rahulshetty.spec.js"
+    "pretest": "playwright install",
+    "test": "playwright test tests/navigate-to-rahulshetty.spec.js"
   },
   "keywords": [],
   "author": "",
